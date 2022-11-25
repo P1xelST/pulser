@@ -75,6 +75,9 @@
 }
 
 @media (max-width: 575px) {
+    .container {
+        max-width: none;
+    }
     .header {
         &__logo {
             width: 180px;
