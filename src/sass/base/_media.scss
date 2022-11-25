@@ -1,0 +1,122 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            margin-top: 30px;
+        }
+        .button_main {
+            margin-top: 55px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 175px;
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__contacts {
+            button {
+                width: 140px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 34px;
+        }
+        &__subheader {
+            font-size: 17px;
+        }
+        .button_main {
+            margin-top: 55px;
+            width: 255px;
+        }
+    }
+    .advantages {
+        padding: 50px 0 40px 0;
+        &__header {
+            font-size: 26px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 18px;
+        }
+        &__block {
+            width: 100%;
+            margin-top: 20px;
+        }
+        &__subheader {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 180px;
+        }
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            button {
+                width: 112px;
+                font-size: 10px;
+            }
+        }
+        &__phone {
+            font-size: 12px;
+        }
+    }
+    .promo {
+        min-height: 605px;
+        padding-bottom: 60px;
+        &__wrapper {
+            align-items: center;
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+        .button_main {
+            margin-top: 55px;
+            width: 255px;
+        }
+        &__icons {
+            width: 310px;
+        }
+    }
+    .advantages {
+        &__header {
+            font-size: 20px;
+        }
+    }   
+
+}
