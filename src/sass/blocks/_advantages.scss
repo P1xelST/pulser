@@ -1,8 +1,8 @@
 .advantages {
     background-color: #F6F6F6;
     padding: 70px 0 67px 0;
-    &__header {
-        @include header;
+    .title {
+        @include title;
     }
     &__wrapper {
         margin-top: 60px;
