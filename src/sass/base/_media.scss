@@ -59,13 +59,12 @@
             font-size: 26px;
         }
         &__wrapper {
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
             margin-top: 18px;
+            flex-wrap: wrap;
         }
         &__block {
-            width: 100%;
             margin-top: 20px;
         }
         &__subheader {
@@ -120,6 +119,22 @@
         .title {
             font-size: 20px;
         }
-    }   
-
+    } 
+    .consultation {
+        min-height: 565px;
+        padding: 65px 0 25px 0;
+        .title {
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 16px;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 36px;
+        }
+    }
 }
