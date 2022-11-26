@@ -3,7 +3,7 @@
 
 * {
     font-family: 'Museo', sans-serif;
-    user-select: none;
+    // user-select: none;
 }
 
 .container {
@@ -17,6 +17,7 @@
 @import 'blocks/advantages.scss';
 @import 'blocks/consultation.scss';
 @import 'blocks/forms.scss';
+@import 'blocks/carusel.scss';
 
 // media
 @import 'base/media.scss';

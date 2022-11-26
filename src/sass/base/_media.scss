@@ -19,6 +19,33 @@
             margin-top: 55px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0;
+            margin-top: 13px;
+            li {
+                list-style-type: none;
+                width: 20px;
+                background-color: grey;
+                height: 5px;
+                button {
+                    display: none;
+                }
+            }
+            .slick-active {
+                background-color: black;
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -136,5 +163,8 @@
             margin: 0 auto;
             margin-top: 36px;
         }
+    }
+    .carousel {
+        padding-bottom: 40px;
     }
 }
