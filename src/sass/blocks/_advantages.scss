@@ -22,6 +22,9 @@
     &__img {
         display: block;
         margin: 0 auto;
+        &_animated {
+            animation: heartbeat 2s ease infinite;
+        }
     }
     &__subheader {
         margin-top: 35px;

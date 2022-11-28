@@ -184,13 +184,15 @@
 
     .catalog {
         .title {
-            font-size: 24px;
+            font-size: 22px;
         }
         &__tabs {
+            margin: 0 auto;
+            width: calc(100% - 10%);
             margin-top: 60px;
         }
         &__tab {
-            font-size: 12px;
+            font-size: 9px;
         }
         .catalog-item {
             margin: 0 auto;

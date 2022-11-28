@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/slick.css">
+    <!-- <linkn rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -33,16 +35,16 @@
                 <h2 class="promo__subheader">с учетом вашего уровня подготовки</h2>
 
                 <div class="promo__icons">
-                    <div class="promo__icon">
+                    <div class="promo__icon animate__animated animate__bounceInLeft">
                         <img src="icons/watch.svg" alt="timer">
                         Время подбора:
                         10 минут
                     </div>
-                    <div class="promo__icon">
+                    <div class="promo__icon animate__animated animate__bounceIn">
                         <img src="icons/boxes.svg" alt="boxes">
                         Бесплатная доставка
                     </div>
-                    <div class="promo__icon">
+                    <div class="promo__icon animate__animated animate__bounceInRight">
                         <img src="icons/messages.svg" alt="messages">
                         Ответим на вопросы
                     </div>
@@ -65,12 +67,12 @@
                     <h3 class="advantages__subheader">Делимся опытом</h3>
                     Наши сотрудники всегда готовы <br> поделиться своим опытом,<br> так как сами бегают полумарафоны,<br> переплыли Босфор, готовятся к<br> соревнованиям по триатлону!
                 </div>
-                <div class="advantages__block">
-                    <img class="advantages__img" src="icons/heart.svg" alt="heart">
+                <div class="advantages__block ">
+                    <img class="advantages__img advantages__img_animated" src="icons/heart.svg" alt="heart">
                     <h3 class="advantages__subheader">Заботимся о здоровье</h3>
                     Мы работаем для того,<br> чтобы Ваши занятия спортом шли на<br> пользу Вашему здоровью и были в<br> радость Вам и Вашим близким!
                 </div>
-                <div class="advantages__block">
+                <div class="advantages__block ">
                     <img class="advantages__img" src="icons/shoe.svg" alt="shoes">
                     <h3 class="advantages__subheader">Учим бегать</h3>
                     Помогаем с обучением<br> правильной технике бега!<br> Дружим с крупнейшей школой бега в<br> России - <span><b>I LOVE RUNNING</b></span>.
@@ -89,9 +91,9 @@
                 Просто заполните форму завяки<br>
                 и мы перезвоним вам в течении 10 минут
             </div>
-            <form class="feed-form" action="#">
+            <form class="feed-form" action="#" id="consultation-form">
                 <input required name="name" type="text" placeholder="name" value="" >
-                <input required name="phone" type="number" placeholder="phone" value="" >
+                <input required name="phone" placeholder="phone" value="" >
                 <input required name="email" type="email" placeholder="email" value="" >
                 
                 <button class="button button_submit">заказать консультацию</button>
@@ -489,7 +491,7 @@
             <div class="modal__descr">и мы перезовним вам в течении 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input required name="name" type="text" placeholder="name" value="" >
-                <input required name="phone" type="number" placeholder="phone" value="" >
+                <input required name="phone" placeholder="phone" value="" >
                 <input required name="email" type="email" placeholder="email" value="" >
                 
                 <button class="button button_submit">заказать консультацию</button>
@@ -501,7 +503,7 @@
             <div class="modal__descr">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input required name="name" type="text" placeholder="name" value="" >
-                <input required name="phone" type="number" placeholder="phone" value="" >
+                <input required name="phone" placeholder="phone" value="" >
                 <input required name="email" type="email" placeholder="email" value="" >
                 
                 <button class="button button_submit">купить</button>
@@ -512,10 +514,15 @@
             <div class="modal__subtitle">Спасибо за вашу заявку</div>
             <div class="modal__descr">наш менеджер вам наберет :D</div>
         </div>
-    </div> 
+    </div>
+    <a href="#up" class="pageup">
+        <img src="icons/circle-up-regular.svg" alt="up">
+    </a>
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
